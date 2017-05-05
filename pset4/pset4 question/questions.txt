@@ -1,0 +1,78 @@
+0.  
+    GIF 256 colors (8 bit color palette)
+    JPEG 16.7 million colors
+    BMP 16.7 million colors if 24-bits can be more or less
+    PNG 8 bit but can extend to 24-bits thus 16.7 milloion
+
+1.  PNG files do not support animation 
+    GIF is widely used in animtion
+    JPEG does not support animation
+    BMP does not look like supporting animation
+    
+2.  Lossy and Lossless compression are the term describe
+    wether or not all original date can be recoverd when uncompress
+    the compressed file.
+    
+3.  Jpeg
+
+4.  What Happens if FAT is deleted:
+    FAT stand for File Allocation Table. Information in the adress get deleted,
+    however actual file (data) is still in hard drie.
+    
+5.  What can you do to ensure that file cannot be recovered after delete.
+    Overwrite it on the disc with 0s
+    Can be doen by using secure delete option
+
+6.  what is stdinr.h?
+    It shalll 
+    declre sets of interger type having specified width
+    and shall define corresponding set of macros.
+    it shall also difine macro that specify limit of interger types
+    corresponding to types defined in other standard headers
+    
+7.  What is the point of using unit8_t, unit32_t, int_32t, unit16_t?
+    c pogramme has very loose definition on basic interger data types.
+    they can guranteed some range of values, but any paticular platfor 
+    might be larger than that so. these 4 (unit8_t, unit32_t, int_32t, unit16_t)
+    can define the size on the programme. 
+
+
+8.  how many bytes each
+
+    as defined 
+    typedef uint8_t  BYTE;
+    typedef uint32_t DWORD;
+    typedef int32_t  LONG;
+    typedef uint16_t WORD;
+    
+    so (because 1 byte is 8 bits)
+    uint8_t  BYTE;1
+    uint32_t DWORD;4
+    int32_t  LONG; 4
+    uint16_t WORD; 2
+
+9.  in ASCII - "B" "M"
+    in hexadecimal - 0x42 0x4D
+    
+10. bfsize - The size, in bytes, of the bitmap file
+    btsize - The number of bytes required by the structure
+
+11. What is biHeight negative
+    If biHeight is possitive, it's bottom up from DIC with 
+    the origin at lower left corner.
+    if biHeight is negative, the bitmap is a top down DIB 
+    with the origin at the upper left corner
+12. biBItcount
+
+13. if it cannot find the file
+
+14. why third arggument to fread is always 1 in our code?
+    it specifys how many elements you want to read, we always read a struct thus we onnly need 1.
+
+15. 3
+
+16. it moves to a specific location in a file
+
+17. current position of file pointer
+
+18. Rick Astlay
