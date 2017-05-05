@@ -1,7 +1,7 @@
 # Harvard-CS50x
 
-*****Student from CS50x!!!*****
-If you need help and live in London, I am happy to assisst you or arrange a study group.
+*****Student from CS50x!!!
+*****If you need help and live in London, I am happy to assisst you or arrange a study group.
 PM me through Facebook Group: CS50x London Study - just created. Don't peek the code!
 
 
