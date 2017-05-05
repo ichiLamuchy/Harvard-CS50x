@@ -1,0 +1,40 @@
+~/workspace $ ~cs50/pset6/server -p 8080 ~/workspace/test
+
+how statrt server
+meaning of server widen 
+
+
+
+cloud using proxy slightly different port number
+use 8080 
+
+env -enviroment on terminal
+where you caan see port number
+
+communicate server to ide itself
+
+how to connect to server*
+
+port to ip addres or domanin name
+
+after workspace
+$ telnet localhost 8080
+
+GET / HYYP/1.1
+
+try to make it behave like browser
+ telnet 'then domain name' (this top right ip addressis proxy ) 443 (secure code)
+ But will be closed by host as we are not "secure"
+ 
+ 2 path of communications
+ 
+ check tcp communication server
+ 
+ you can print f to do see what print out on terminal
+ 
+ or
+ 
+ sending it out onto 
+
+
+

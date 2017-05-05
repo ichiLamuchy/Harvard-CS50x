@@ -1,0 +1,62 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis:
+
+    an obscure term ostensibly referring to a lung disease caused by silica dust, 
+    sometimes cited as one of the longest words in the English language.
+
+
+1.  getrusage:
+
+    getrusage are used to examine the resource usage of a process. They are declared in sys/resource.h
+    On function of loading dictionary, check word's spelling, determine dictionary size, unloading dictionary,
+    it will check the resourse of useage before and after the fuction, store at &before and &after.
+    
+    
+2.  how many members are in a varible type of struct useage?:
+
+    Data type struct contents 16 members
+    
+    
+3.  why passing by reference?
+    
+    Before and after are passed to getrusage to determine 
+    the resource use at the point in time before and after the event.
+    By using reference you can avoid unientional change of the value.
+    In added, there won't be copy process needed so it can be done faster.
+    
+
+4.  How to read words:
+
+    This function gets a character until the end of file by using fgetc. 
+    
+    If it gets more than defined maxmum lengh of a oard, it will be ignored.
+    If it's digit, it will be ignored.
+    If no more alphabet detected, it will be considered as the end of the word so put null charactor
+    Then, spell check the word by challing the function check from dictionally.c
+    
+
+5.  why fgetc not sscanf
+
+    It is safer and simpler to use fgetc in this condition as we only need to recognise
+    only alphabets and apostorophe to be a part of word (string). scanf may contents undesireble charactors.
+    In other words, fgetc has more control over what charactors to be filtered through.
+    
+6.  why use const when load and check
+    
+    Because they are not allowed to change.
+
+    
+7.  I use hash table with linked list to map the data to be sorted while loading dictinaries. It helps for taking less time on check function.
+    Whhen dictionaries get loaded.
+    
+
+8.  How slow was your code?
+    3.73 sec
+    
+9.  What did you do to make it better?
+    Throuh out the coding I have been conscious to how fast it can execute so all I did after working correctly were
+    I increased and decreased the number of buckets / index to be used on hash table to see if there are any changes.
+
+10. Any bottlenecks?
+    Check function takes quite a long time 
+    Even though changed the number of buckets on hash function from 2000 to 50000, the result was not so different.
+    So, the cause of latency on check function is most likely something to do with hash function. 
