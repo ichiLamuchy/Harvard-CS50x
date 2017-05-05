@@ -1,6 +1,10 @@
 # Harvard-CS50x
 Problem Sets for Harvard CS50: Introduction to Computer Science
 
+*****Student from CS50x!!!*****
+If you need help and live in London, I am happy to assisst you or arrange a study group.
+PM me through Facebook Group: CS50x London Study - just created. Don't peek the code!
+
 Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. 
 
 Studied on EDX CS50x in 2016. Graded all 100%
